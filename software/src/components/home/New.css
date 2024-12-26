@@ -1,0 +1,86 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #370426; /* Deep blue background */
+    color: #eae7dc; /* Soft beige text */
+    overflow-x: hidden;
+  }
+  
+  /* Hero Section Styling */
+  .new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-color: #390331; /* Matches the background of the design */
+  }
+  
+  .notice {
+    max-width: 800px;
+  }
+  
+  .notice h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .notice h1 .highlight {
+    color: #eae7dc;
+  }
+  
+  .notice p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  /* Button Group */
+  .game {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  gbutton {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Explore Button Styling */
+  .explore-game {
+    background-color: #ff4b5c; /* Vibrant red button */
+    color: #ffffff;
+  }
+  
+  .explore-game span {
+    font-weight: 700;
+  }
+  
+  .explore-game:hover {
+    background-color: #e63946;
+  }
+  
+  /* Contact Button Styling */
+  .contact-game {
+    background-color: #ffffff;
+    color: #2a2a72;
+  }
+  
+  .contact-game span {
+    font-weight: 700;
+  }
+  
+  .contact-game:hover {
+    background-color: #f4f4f9;
+  }
+  

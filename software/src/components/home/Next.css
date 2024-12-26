@@ -1,0 +1,67 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for Features */
+  .features-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  /* Title Styling */
+  .features-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3c1a47;
+  }
+  
+  .features-title .highlight {
+    color: #6d1a47;
+  }
+  
+  /* Grid Container */
+  .features-grid {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    justify-content: space-between; /* Spread cards evenly across the row */
+    flex-wrap: nowrap;
+  }
+  
+  /* Feature Card Styling */
+  .feature-card {
+    background-color: #ffe5d2;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 0 0 calc(33.333% - 20px); /* Ensures each card takes 1/3 of the row minus spacing */
+    max-width: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #3c1a47;
+  }
+  
+  .feature-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h2 .highlight {
+    color: #6d1a47;
+  }
+  
+  .feature-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .feature-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  

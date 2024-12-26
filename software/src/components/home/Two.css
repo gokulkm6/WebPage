@@ -1,0 +1,40 @@
+.two-column-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffffff; /* White background */
+  }
+  
+  .text-column {
+    max-width: 50%;
+    padding-right: 20px;
+  }
+  
+  .text-column h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2b102c; /* Dark purple color */
+    margin-bottom: 20px;
+  }
+  
+  .text-column .highlight {
+    color: #000000; /* Highlighted purple color */
+  }
+  
+  .text-column p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #4d4d4d; /* Subtle gray for the text */
+  }
+  
+  .image-column {
+    max-width: 45%;
+  }
+  
+  .image-column img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  

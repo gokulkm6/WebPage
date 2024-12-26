@@ -1,0 +1,49 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b102c; /* Purple background */
+  color: #fff;
+  text-align: center;
+  height: 100vh; /* Full screen height */
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 600px;
+}
+
+.dots-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  display: inline-block;
+  padding: 0; /* Reset padding */
+  margin: 5px; /* Adjust spacing */
+  line-height: 0; 
+}
+
+.dot.active {
+  opacity: 1;
+  background-color: #ff9900; /* Highlight color for active dot */
+}

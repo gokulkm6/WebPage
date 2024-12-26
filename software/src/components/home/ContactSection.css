@@ -1,0 +1,56 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d0b25; /* Matching the dark purple background */
+    padding: 2rem;
+    color: white;
+  }
+  
+  .text-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button {
+    background-color: #f29339; /* Orange button color */
+    color: black;
+    font-weight: bold;
+  }
+  
+  .explore-button .highlight {
+    font-weight: bold;
+  }
+  
+  .contact-button {
+    background-color: #f4f1ee; /* Off-white button color */
+    color: black;
+  }
+  
+  .contact-button .highlight {
+    font-weight: bold;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

@@ -1,0 +1,42 @@
+.best-in-class-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fef7ed;
+    font-family: Arial, sans-serif;
+  }
+  
+  .best-in-class-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2f2f2f;
+    margin-bottom: 2rem;
+  }
+  
+  .best-in-class-container .highlight {
+    color: #000000;
+  }
+  
+  .badges-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .badge-card {
+    background-color: #fbeee4;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .badge-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
